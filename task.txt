@@ -1,0 +1,15 @@
+Developed a CURD Rest-API(Hybrid-Server)
+    Used HTTP method - GET POST PATCH DELETE
+GET/USERS -> List all users
+GET/USERS/1 -> Get the user with id1
+GET/USERS/2 -> Get the user with id2
+    Dynamic Path Parameters(GET/api/user/:id) 
+        id here is now a variable.
+POST/USERS -> Create NewUser
+PATCH/USERS/1 -> Edit the user with id1
+DELETE/USERS/1 -> Delete the user wiht id1
+    use-- users.splice(userIndex,1) //remove the user from the array
+
+Hybrid Server
+GET/USERS -> HTML DOCS(browsers)
+GET/API/USERS -> JSON(Mobile app,etc)
